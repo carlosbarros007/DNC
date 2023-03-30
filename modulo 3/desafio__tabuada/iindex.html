@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TABUADA</title>
+</head>
+<body>
+    
+    <header>
+        <img src="img/logo_dark_100.d55b0df.png" alt="logo_dnc">
+        <h1>TABUADA</h1>
+    </header>
+
+    <main>
+        <div class="formulario">
+
+            <label for="numero__tabuada">Digite um numero para calcular a tabuada:</label><br>
+            <input id="numero__tabuada" type="number"> <br> <br>
+
+            <label for="numero__vezes">Digite quantas vezes você quer calcular o numero aterior:</label><br>
+            <input id="numero__vezes" type="number"> <br>
+
+           <input class="calcular" type="button" onclick="calcular()" value="calcular" >
+        </div>
+        
+        <div >
+
+            <p id="mostraResultado"></p>
+
+        </div>
+    </main>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

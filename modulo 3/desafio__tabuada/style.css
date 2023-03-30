@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+    text-align: center;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    margin: 40px;
+}
+
+.formulario{
+
+    width: 500px;
+    padding: 20px 100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+
+.calcular{
+
+    padding: 8px 40px;
+    margin-top: 25px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.calcular:hover{
+
+    background-color: brown;
+    color: white;
+}
+
+#mostraResultado{
+    color: white;
+}
