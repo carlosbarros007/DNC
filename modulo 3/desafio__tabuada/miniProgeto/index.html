@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina Cadastro Produto</title>
+</head>
+<body>
+
+    <header>
+        <img src="imagens/logo_dnc_transp4.png.webp" alt="logo dnc">
+        <h1>Cadastro de Produtos</h1>
+    </header>
+
+    <main class="conteudo__principal">
+
+        <div>
+            <h2>Produtos</h2>
+            <p>Lista de Produtos</p>
+        </div>
+        
+        <div>
+            <form action="#" class="conteudo__principal__formulario">
+                <label for="produto">Produto:</label>
+                <input type="text" id="produto" placeholder="Nome do produto">
+
+                <label for="valor">Valor:</label>
+                <input type="number" id="valor" placeholder="Valor do produto">
+
+                <button class="butao" onclick="novoProduto.Adicionar()">Adicionar</button>
+                <button class="butao" onclick="novoProduto.limpaCampo()" >Cancelar</button>
+            </form>
+        </div>
+
+        <div>
+            <table border="1px">
+                <thead>
+                    <th>ID</th>
+                    <th>PRODUTO</th>
+                    <th>PREÇO</th>
+                    <th>REMOVER</th>
+                </thead>
+                <tbody id="tabela">
+                  
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
